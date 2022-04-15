@@ -1,5 +1,7 @@
 .vscode
-*.exe
 bin
 obj
+vendor
+*.exe
 *.csproj
+*.class
