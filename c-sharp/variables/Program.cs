@@ -18,7 +18,6 @@
             double  numberDouble = 42.9;
             bool    isDeveloper  = true; // false
             
-            // Constant
             const string PROGRAMMING_LANGUAGE = "C-Sharp";
 
             Console.WriteLine("String    value: " + textString);

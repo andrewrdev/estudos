@@ -14,7 +14,7 @@ public class Program
         double  numberDouble = 54.55;
         boolean isDeveloper  = true; // false
         
-        // Constant
+        // constant
         final String PROGRAMMING_LANGUAGE = "Java";
 
         System.out.println("String    value: "  + textString);
