@@ -39,10 +39,10 @@ public class Program
                 System.out.println("Position: 1");
                 break;
             case 2:
-                System.out.println("Position: 1");
+                System.out.println("Position: 2");
                 break;
             case 3:
-                System.out.println("Position: 1");
+                System.out.println("Position: 3");
                 break;
             default:
                 System.out.println("Position invalid");
