@@ -1,9 +1,7 @@
 package oop.constructors;
 
-public class Program 
-{
-    public static void main(String[] args) 
-    {
+public class Program {
+    public static void main(String[] args) {
         Test01 test01 = new Test01();
         Test02 test02 = new Test02("Peter", 23);
 

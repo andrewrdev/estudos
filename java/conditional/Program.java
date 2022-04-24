@@ -1,14 +1,12 @@
 package conditional;
 
-public class Program 
-{
-    public static void main(String[] args) 
-    {
+public class Program {
+    public static void main(String[] args) {
 
-        byte position  = 4;
-        
+        byte position = 4;
+
         // if else ------------------------------------------------------------
-        
+
         System.out.println("==== IF ELSE ===============");
 
         if (position == 1) {

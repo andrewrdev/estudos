@@ -1,17 +1,14 @@
 package oop.inheritance;
 
-public class Test02 extends Test01
-{
+public class Test02 extends Test01 {
     public String lastName;
 
-    public Test02()
-    {
+    public Test02() {
         super();
     }
 
     @Override
-    public void goodBye()
-    {
+    public void goodBye() {
         super.goodBye();
         System.out.println("Goodbye!");
     }
@@ -20,8 +17,7 @@ public class Test02 extends Test01
      *
      */
     @Override
-    public void hello()
-    {
+    public void hello() {
         System.out.println("Hello World!");
     }
 }

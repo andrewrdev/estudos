@@ -1,21 +1,21 @@
 package loops;
 
-public class Program 
-{
-    public static void main(String[] args) 
-    {
+public class Program {
+    public static void main(String[] args) {
+
         byte number = 0;
-        String[] beatles = new String[]{"John", "Paul", "George", "Ringo"};
+        String[] beatles = new String[] { "John", "Paul", "George", "Ringo" };
 
         // while --------------------------------------------------------------
 
         System.out.println("==== while ==========");
 
         while (number <= 10) {
+
             if (number == 5) {
                 break;
             }
-            
+
             System.out.println("Number: " + number);
             number++;
         }
@@ -31,10 +31,11 @@ public class Program
         } while (number <= 10);
 
         // for ----------------------------------------------------------------
-        
+
         System.out.println("==== for ============");
 
         for (byte i = 0; i <= 10; i++) {
+            
             if (i == 5) {
                 continue;
             }

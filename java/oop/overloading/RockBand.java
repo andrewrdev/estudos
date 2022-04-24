@@ -5,19 +5,16 @@ public class RockBand {
     public String genre;
     public int year;
 
-    public void init(String name)
-    {
+    public void init(String name) {
         this.name = name;
     }
 
-    public void init(String name, String genre)
-    {
+    public void init(String name, String genre) {
         this.genre = genre;
         this.name = name;
     }
 
-    public void init(String name, String genre, int year) 
-    {
+    public void init(String name, String genre, int year) {
         this.name = name;
         this.genre = genre;
         this.year = year;

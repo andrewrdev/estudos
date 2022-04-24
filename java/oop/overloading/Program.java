@@ -1,9 +1,7 @@
 package oop.overloading;
 
-public class Program 
-{
-    public static void main(String[] args) 
-    {
+public class Program {
+    public static void main(String[] args) {
         RockBand band = new RockBand();
         RockBand band2 = new RockBand();
 
