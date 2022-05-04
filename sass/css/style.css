@@ -1,3 +1,28 @@
 h1 {
   color: red;
 }
+
+#main-div {
+  background-color: #1cc5f0;
+  color: gray;
+  padding: 20px;
+}
+#main-div h1 {
+  margin-top: 20px;
+}
+#main-div p {
+  font-family: "Times New Roman", Times, serif;
+}
+#main-div a {
+  background-color: aquamarine;
+}
+#main-div a:hover {
+  background-color: aqua;
+}
+
+#my-div {
+  background-color: #1cc5f0;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

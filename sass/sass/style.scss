@@ -4,6 +4,37 @@ $color-blue: blue;
 $color-black: rgb(0, 0, 0);
 $color-white: #FFFFFF;
 
+$main-div-bg: #1cc5f0;
+
+$prop-color: color;
+
 h1 {
     color: $color-red;
+}
+
+#main-div {
+    background-color: $main-div-bg;
+    color: gray;
+    padding: 20px;
+
+    h1 {
+        margin-top: 20px;
+    }
+
+    p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    a {
+        background-color: aquamarine;
+
+        &:hover {
+            background-color: aqua;
+        }
+    }
+}
+
+#my-div {
+    background-color: $main-div-bg;
+    #{$prop-color}: $color-red;
 }
