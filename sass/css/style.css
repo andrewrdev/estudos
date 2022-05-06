@@ -25,4 +25,35 @@ h1 {
   color: red;
 }
 
+.item-1 {
+  background-color: red;
+  margin-top: 10px;
+}
+
+.item-2 {
+  background-color: red;
+  margin-top: 10px;
+}
+
+.item-3 {
+  background-color: red;
+  margin-top: 10px;
+}
+
+.box-1 {
+  background-color: orange;
+}
+
+.box-2 {
+  background-color: orange;
+}
+
+.box-3 {
+  background-color: orange;
+}
+
+.box-4 {
+  background-color: orange;
+}
+
 /*# sourceMappingURL=style.css.map */

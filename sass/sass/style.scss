@@ -38,3 +38,21 @@ h1 {
     background-color: $main-div-bg;
     #{$prop-color}: $color-red;
 }
+
+@for $i from 1 through 3 {
+    .item-#{$i} {
+        background-color: red;
+        margin-top: 10px;
+    }
+}
+
+$cont: 1;
+
+@while $cont < 5 {
+
+    .box-#{$cont} {
+        background-color: orange;
+    }
+
+    $cont: $cont + 1;
+}
