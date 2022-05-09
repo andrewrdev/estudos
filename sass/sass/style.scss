@@ -1,3 +1,5 @@
+// variables ------------------------------------------------------------------
+
 $color-red: red;
 $color-green: green;
 $color-blue: blue;
@@ -7,6 +9,8 @@ $color-white: #FFFFFF;
 $main-div-bg: #1cc5f0;
 
 $prop-color: color;
+
+// ----------------------------------------------------------------------------
 
 h1 {
     color: $color-red;
@@ -39,6 +43,8 @@ h1 {
     #{$prop-color}: $color-red;
 }
 
+// @for -----------------------------------------------------------------------
+
 @for $i from 1 through 3 {
     .item-#{$i} {
         background-color: red;
@@ -48,6 +54,8 @@ h1 {
 
 $cont: 1;
 
+// @while ---------------------------------------------------------------------
+
 @while $cont < 5 {
 
     .box-#{$cont} {
@@ -55,4 +63,31 @@ $cont: 1;
     }
 
     $cont: $cont + 1;
+}
+
+$list: red, green, blue;
+$cont: 1;
+
+// @each ----------------------------------------------------------------------
+
+@each $color in $list {
+    .span-#{$cont} {
+        background-color: $color;
+    }
+
+    $cont: $cont + 1;
+}
+
+// @functions -----------------------------------------------------------------
+
+$column-grid: 12;
+
+@function column-width($value) {
+    @return percentage($value / $column-grid);
+}
+
+$result: column-width(6);
+
+div {
+    width: $result;
 }

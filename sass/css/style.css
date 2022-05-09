@@ -56,4 +56,20 @@ h1 {
   background-color: orange;
 }
 
+.span-1 {
+  background-color: red;
+}
+
+.span-2 {
+  background-color: green;
+}
+
+.span-3 {
+  background-color: blue;
+}
+
+div {
+  width: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
