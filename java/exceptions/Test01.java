@@ -1,3 +1,5 @@
+package exceptions;
+
 public class Test01 {
 
     public static int number1 = 50;
